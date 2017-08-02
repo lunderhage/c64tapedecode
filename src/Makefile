@@ -1,5 +1,6 @@
 CFLAGS=-Wall -O2
-LDFLAGS=-lm
+LDLIBS=-lm
+CC=gcc
 
 PREFIX=/usr/local
 BINDIR=${PREFIX}/bin
